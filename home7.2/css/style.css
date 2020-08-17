@@ -1,0 +1,119 @@
+.wrapper {
+    width: 1600px;
+    height: 736px;
+    background-image: url(/home7.2/image/grid.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.header-who {
+    margin-bottom: 21px;
+    padding-top: 110px;
+}
+.who {
+    text-transform: uppercase;
+    font-size: 26px;
+    font-weight: bold;
+    text-align: center;
+    margin: 0;
+}
+.border-gr {
+    border: 2px solid #dddbdb;;
+    width: 45px;
+    margin-left: 779px;
+    margin-top: 0;
+    margin-bottom: 47px;
+}
+.text {
+    
+    text-align: center;
+    font-size: 16px;
+}
+.header-text {
+    width: 510px;
+    margin: 0 auto 64px auto;
+}
+.alex {
+    width: 270px;
+    height: 270px;
+    background-image: url(/home7.2/image/jonh.png);
+    opacity: 0.8;    
+}
+.elena {
+    width: 270px;
+    height: 270px;
+    background-image: url(/home7.2/image/elena.png);
+    opacity: 0.8; 
+}
+.lily {
+    width: 270px;
+    height: 270px;
+    background-image: url(/home7.2/image/lilly.png);
+    opacity: 0.8; 
+}
+.elena:hover {
+    background-image: url(/home7.2/image/hover.png);
+    transition: all 1s;
+}
+.lily:hover {
+    background-image: url(/home7.2/image/hover.png);
+    transition: all 1s;
+}
+.alex:hover {
+    background-image: url(/home7.2/image/hover.png);
+    transition: all 1s;
+}
+section {
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 185px;
+    margin-right: 185px;
+}
+.social {
+    display: none;
+
+}
+.tw, .fb, .google {
+    width: 44px;
+    height: 44px;
+    background: #5ecce7;
+    opacity: 0.8;        
+}
+a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 11px 15px;
+    color: #fff;
+    font-size: 20px;
+}
+.social-wrapper {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 112px 61px;
+    }
+.lily:hover .social {
+    color: #9e1919;
+    display: block;
+    transition: all 1s;
+}
+.elena:hover .social {
+     color: #9e1919;
+     display: block;
+     transition: all 1s;
+ }
+.alex:hover .social {
+    color: #9e1919;
+    display: block;
+    transition: all 1s;
+}
+.full-name {
+    font-weight: bold;
+    font-size: 20px;
+    text-align: left;
+    margin: 25px 0 0 0;
+}
+.position {
+    font-size: 12px;
+    text-align: left;
+    margin: 3px 0 0 0;
+    color: #b1a09a;
+}

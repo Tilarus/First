@@ -1,0 +1,161 @@
+
+.header {
+    background-image: url(/home12/image/bg-header.png);
+    width: 1300px;
+    padding: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* height: 421px; */    
+}
+.container {
+    padding: 0;
+    margin: 0;
+}
+.row {
+    margin: 0;
+    padding: 0;
+}
+.logo-text {
+    font-family: 'Montserrat', sans-serif;
+    color: #60606e;
+    font-weight: 700;
+    font-size: 18px;
+}
+.pos-left {
+    margin-left: 80px;
+    margin-top: 44px;
+    padding: 0;
+}
+.pos-right {
+    margin-right: 80px;
+    margin-top: 44px;
+    padding: 0;
+    
+}
+.top-menu { 
+    cursor: pointer;
+
+}
+.cube-blue {
+    background-color: #7beec7;
+}
+.cube-grey {
+    background-color: #60606e;
+    margin-left: 118px;    
+}
+.two-cube {
+    margin-top: 163px;
+}
+.cube-blue, .cube-grey {
+    width: 55px;
+    height: 55px;
+}
+.col-6 {
+    padding: 0;
+}
+/* .text-header > p {
+    font-family: 'Montserrat', sans-serif;
+    color: #60606e;
+    font-weight: 700;
+    font-size: 36px;
+} */
+.wrap-col-8, .text-section p:first-child {
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    color: #60606e;
+    font-weight: 700;
+    font-size: 36px;
+}
+.wrap-col-8  p:nth-child(2) {
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    color: #60606e;
+    font-weight: 700;
+    font-size: 14px;
+}
+.wrap-col-8 {
+    text-align: center;
+    margin-top: 209px;
+    margin-right: 348px;
+    margin-bottom: 168px;
+}
+.text-section p:first-child {
+    font-size: 30px;
+    
+}
+.text-section p:nth-child(2) {
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    color: #60606e;
+    font-weight: 700;
+    font-size: 14px
+}
+.marker {
+    background-image: url(/home12/image/blue-marker.png);
+    background-repeat: no-repeat;
+    background-position: bottom left ;
+    
+}
+.two-block-text {
+    margin-bottom: 164px;
+}
+.text-section{
+    padding: 0;
+    /* margin-bottom: 130px; */
+}
+.wrap-marker {
+    display: flex;
+    justify-content: center;
+}
+#small-text-center {
+    margin: 0 157px;
+    color: #92929a;    
+    font-size: 10px
+}
+.col-4 > p:nth-child(2) {
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    color: #60606e;
+    font-weight: 700;
+    font-size: 14px;
+}
+.col-4 > p:first-child {
+    background-image: url(/home12/image/client-steakhouse.png);
+    background-repeat: no-repeat;
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+.b {
+    background-color: rgb(43, 226, 141);
+    height: 300px;
+}
+
+.v {
+    padding: 0;
+    border: 1px solid purple;
+} */

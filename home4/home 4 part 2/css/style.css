@@ -1,0 +1,150 @@
+/*задав для усієї сторінки параметри*/
+.wrap {
+    width: 951px;
+    height: 566px;
+    background: #990909;
+    font-size: 18px;
+    padding-right: 0px;
+    
+}
+/*вирівняв логотип по центру*/
+.logo {
+    margin: 0 auto; 
+    text-align: center;
+}
+/* задав розміри картинкам, т.я. є ще логотип який задав через тег img то вирішив зробити так лише для img які знаходяться в блоку з класом .image*/
+.image > img {    
+    width: 152px;
+    height: 113px;
+}/*так як не вистачає знань та практики вирішив зробити "костиль", розбити блок на два, але візуально буде виглядати як один
+пунктиром позначив де починається наступний, З.І. хоча розумію що це не правильно але ж працює))) */
+.head{
+    background: #000;
+    width: 942px;
+    height: 137px;
+    margin-left: 8px;
+    
+}
+.image {
+    display: flex;
+    justify-content: space-between;
+    }
+
+.head-wrap {
+    padding-top: 23px; 
+    padding-right: 46px;
+    padding-left: 46px;  
+}/*-----------------------------------*/
+.navi {
+    background: #000;
+    width: 942px;
+    height: 23px;
+    margin-left: 0px;
+    border: 0;    
+}
+
+.list {
+    list-style: none;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0;
+    border: 0;
+    padding-top: 0px; 
+    padding-right: 46px;
+    padding-left: 56px;  
+   }
+   /*т.я. не міг нормально розташувати лінки під малюнками вирішив зробити це чере last та first child*/
+   li :first-child {
+       padding-left: 40px;
+
+   }
+   li :last-child {
+       padding-right: 40px;
+   }
+a{
+     text-decoration: none;
+     color: #fff;
+ }
+.wrapper-text {
+    height: 292px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 26px;
+    padding-left: 11px;
+    padding-right: 4px;
+    margin-bottom: 21px;
+ }
+ 
+
+.aside-left {
+     width: 200px;
+     background: #7d0909;
+     font-size: 18px;
+     text-decoration: underline;
+     color: #d85b11;
+     line-height: 2;
+ } 
+ /*т.я. не зміг зробить так що при відомомій ширині лівого і правого блоку середній заняв залишковий простір просто  задав його вручну*/
+.midle-section{
+     width: 587px;
+     color: #fff;
+ }
+ /*використав 16 замість 18, бо якщо взяти 18 він не вміщається в правий aside, згідно розмірів макета*/
+.aside-right {
+    width: 151px;
+    background: #e3dddd;
+    font-size: 16px;
+    
+} 
+.aside-right-title {
+height: 17px;
+background: #bdbdbd;
+font: bolder;
+color: black;
+text-align: center;
+margin-bottom: 10px;
+}
+h4 {
+    margin: 0;    
+}
+.aside-right-border {
+    border: 1px solid #9a9a9a;
+    width: 77px;
+    text-align: center;
+}
+/* хотів вирівняти повні блокі в блоці але чомусь не спрацювало, вирішив залишити для питання
+.aside-right-border > .aside-right{
+    justify-content: center;
+}*/
+
+.aside-right-border {
+    margin: 0 auto;
+    height: 1px;
+}
+.first-border {
+    margin-bottom: 15px;
+}
+.aside-right-border-first-lor {
+    margin-bottom: 15px;
+}
+.second-border {
+    margin-bottom: 17px;
+}
+.third-border {
+    margin-top:  15px;
+    margin-bottom: 16px;
+}
+
+.footer {
+    width: 937px;
+    height: 18px;
+    background: #e95b11;
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+    margin-left: 10px;
+    margin-top: 21px;
+}
+   
+    

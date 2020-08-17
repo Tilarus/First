@@ -1,0 +1,101 @@
+p {
+    margin: 0;
+}
+.wrap {
+    max-width: 1600px;
+    background-color: #e2e7ec;
+    padding: 96px 200px;
+    margin: 0 auto;
+}
+.one, .two {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+.one > .list-warp {
+    margin-left: 20px;
+    margin-right: 0;
+}
+.one {
+    margin-bottom: 20px;
+}
+
+.list-redcar { 
+    min-width: 740px;
+    min-height: 540px;
+    background-image: url(/home11.2/image/redcar.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.small-text-photo, .big-text-photo { 
+    font-weight: 400;
+    left: 40px;
+    top: 395px;
+    position: relative;
+    margin: 0; 
+    font-family: 'Times New Roman', Times, serif;
+}
+.big-text-photo {
+    color: #fff;    
+    font-size: 30px;           
+}
+.small-text-photo {
+    color: #93918d;
+    font-size: 13px;
+    margin-bottom: 28px;   
+}
+.list-warp {
+    background-color: #fff;
+    
+    margin-right: 20px;
+}
+.list-photo {
+    
+    width: 360px;
+    height: 250px;
+}
+.list-text {
+    text-align: left;
+}
+    
+.small-text, .big-text, .list-icon {
+    margin-left: 28px;
+}
+.small-text {
+    color: #93918d;
+    font-size: 13px;
+    margin-top: 30px;
+    margin-bottom: 24px;
+   
+}
+.big-text {
+    font-size: 22px;
+    font-weight: 400;
+    margin-bottom: 71px;
+    padding-right: 87px;
+}
+.list-icon {
+    margin-bottom: 25px;
+}
+
+.two {
+    margin-bottom: 85px;
+}
+#footer-img {
+    width: 30px;
+    height: 30px;
+    margin: 0;
+    
+
+}
+footer {
+    display: flex;
+    justify-content: center;
+}
+.loading-text { 
+    margin: 0 0 0 5px;
+    position: relative;
+    top: 8px;
+    color: #93918d;
+    font-size: 13px;
+}

@@ -1,0 +1,69 @@
+.wrapper{
+    width: 1600px;
+    height: 1200px;
+
+
+}
+.wrap {
+    width: 1000px;
+    height: 938px;    
+    background-image: url(/home9/image/bg.png);
+    background-repeat: no-repeat;
+    box-shadow: 0 0 400px -100px #6d6b6b;
+    margin: 0 auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: calc(50% - 200px);
+    
+    
+}
+.wrap-pargraph {
+    padding: 125px;
+}
+h1 {
+    font-family: 'Playfair Display', serif;
+}
+#first-pargraph:first-letter{
+    
+        font-size: 611%; /* Размер шрифта первого символа */
+        color: #000; 
+        float: left;
+        line-height: 76px;
+        font-family: 'Playfair Display', serif;
+        margin-left: 4px; 
+}
+p {
+    color: #c4c4c4;
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 25px;
+    font-family: 'Lato', sans-serif;
+}  
+span {
+    color: #c4c4c4;
+    font-family: 'Lato', sans-serif;
+    font-size: 480%;
+}
+#italic {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+}
+#first-pargraph, #second-pargraph {
+    margin-bottom: 56px;
+}
+#third-pargraph {
+    margin-bottom: 25px;
+}
+button {
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: rgb(196, 27, 27);
+    border: 1px solid rgb(196, 27, 27) ;
+    background: #fff;
+    padding: .7em 1.5em;
+    outline: none;
+    cursor: pointer;
+
+}

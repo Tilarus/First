@@ -1,0 +1,123 @@
+.wrapper {
+    max-width: 1469px;
+    max-height: 963px;
+    border: 24px solid #2b81ac;
+    background-color: #3399cc;
+    /* padding: 96px 215px 190px 215px; */
+}
+.wrap {
+    margin-top: 98px;
+    margin-bottom: 188px;
+    margin-left: 125px;
+    margin-right: 125px;
+}
+.first-town, .second-town, .third-town, .fourth-town {
+    display: flex;
+    width: 100%;
+    font-size: 30px ;
+    color: #fff;
+}
+.kiev {
+    width: 50%;
+    border: 2px solid #fff;
+    /* padding-left: 197px;
+    padding-top: 39px; */
+    font-size: 30px;
+    text-align: center;
+    background-color: #3399cc;
+}
+.rivne, .lviv {
+    width: 25%;
+    border: 2px solid #fff;
+    border-left: none;
+    text-align: center;   
+}
+.rivne {
+    background-color: #33cccc;
+}
+.lviv {
+    background-color: #996699;
+}
+ p {
+    margin-bottom: 10px;    
+}  
+.deg {
+
+    margin-top: 0;
+}
+.rom, .stambul, .berlin {
+    width: 25%;
+    border: 2px solid #fff;
+    border-left: none;
+    border-top: none;
+    text-align: center; 
+    
+}
+.london {
+    width: 25%;
+    border: 2px solid #fff;
+    border-top: none;
+    text-align: center;
+    background-color: #c24747;
+}
+.new-delhi {
+    width: 25%;
+    border: 2px solid #fff;
+    border-top: none;
+    text-align: center;
+    background-color: #669999;
+}
+.san-francisco {
+    width: 50%;
+    border: 2px solid #fff;
+    border-left: none;
+    border-top: none;
+    text-align: center;
+    background-color: #cc6699;
+}
+
+.tokyo {
+    width: 25%;
+    border: 2px solid #fff;
+    border-left: none;
+    border-top: none;
+    text-align: center;
+    background-color: #339966;
+}
+.sydney {
+    width: 100%;
+    border: 2px solid #fff;
+    border-top: none;
+    text-align: center;
+    background-color: #666699;
+
+}
+.rom { 
+    background-color: #ffcc66;
+
+}
+.stambul {
+    background-color: #99cc99;
+
+}
+.berlin {
+    background-color: #e2674a;
+}
+
+.deg {
+    opacity: 0.5;
+}
+
+.wrap:hover .city:not(:hover) {
+    opacity: 50%;
+}
+.note {
+    color: #fff;
+    margin-top: 10px;
+}
+.title {
+    font-size: 30px;
+    color:#fff;
+    margin-bottom: 10px;
+}
+  

@@ -1,0 +1,118 @@
+.wrapper {
+    width: 1500px;
+    height: 864px;
+    background: url(/home7/image/bg.png) no-repeat;
+    background-size: 100%;
+    font-family: 'Red Rose', cursive;
+}
+.header-blog {
+    padding-top: 60px;
+    margin-bottom: 30px;
+}
+.blog {
+    font-size: 65px;
+    font-weight: bolder;
+    color: #fff;
+    text-align: center;
+    margin: 0;
+}
+.header-text {
+    width: 570px;
+    margin: 0 auto 50px auto;
+
+}
+.text {
+    color: #fff;
+    text-align: center;
+    font-size: 16px;
+    margin-top: 0;
+}
+
+.mohito {
+    width: 370px;
+    height: 309px;
+    background-image: url(/home7/image/moh-gr.png);
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+} 
+.soup {
+    width: 370px;
+    height: 309px;
+    background-image: url(/home7/image/soup-gr.png);
+    background-position: right bottom;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+.strab {
+    width: 370px;
+    height: 309px;
+    background-image: url(/home7/image/strab-gr.png);
+    background-position: bottom;
+    box-shadow: 0 0 10px #000;
+}
+section {
+     display: flex;
+    justify-content: space-evenly;  
+    margin-left: 164px;
+    margin-right: 164px;  
+}
+img {
+    max-width:100%;height:auto; 
+}
+.mohito:hover { 
+   background: url(/home7/image/mohito.png);
+   transition: all .3s ease-in; 
+   transform: scale(1.2 ,1.2);
+}
+.soup:hover { 
+    background: url(/home7/image/soup.png);
+    transition: all .3s ease-in; 
+    transform: scale(1.2 ,1.2);   
+}
+.strab:hover { 
+    background: url(/home7/image/straberry.png);
+    transition: all .3s ease-in; 
+    transform: scale(1.2 ,1.2);
+}
+.mohito, .soup, .strab {
+    position: relative;
+}
+.shadow-date {
+    background-image: url(/home7/image/bg-day.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    font-size: 20px;
+    color: #fff;
+    font-weight: bolder;
+    padding: 5px;
+}
+.shadow-date p {
+    margin: 0;
+    text-align: center;
+}
+.text-mohito, .text-soup {
+    position: absolute;
+    left: 10px;
+    bottom: 20px;
+    font-size: 20px;
+    color: #fff;
+}
+.smal-text-mohito {
+    font-size: 10px;
+}
+.btn {
+    max-width: 200px;
+    margin-top: 50px;
+    margin-left: 650px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    
+}
+
+.btn-red {
+    color: #fff;
+    text-transform: uppercase;
+    width: 200px;
+    height: 55px;
+    background-color: #f72b3b;
+    border: none;
+}

@@ -1,0 +1,123 @@
+.wrapper {
+    width: 1280px;
+    height: 976px;
+    background-image: url(/home8/image/bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+
+header {
+    text-align: center;
+}
+.who {
+    color: #898f99;
+    font-size: 10px;
+    padding-top: 142px;
+    margin-bottom: 37px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+.hello {
+ font-size: 35px;
+ color: #0ec8cb;
+ margin: 0 0 46px 0;
+ letter-spacing: 6px;
+}
+.we-do {
+ width: 468px;   
+ font-size: 15px;
+ color: #b89e9e;
+ letter-spacing: normal;
+ margin: 0 211px 110px 406px;
+ /* margin-bottom: 110px; */
+ }
+.who, .hello, .we-do, .title, .title-dimond {
+    text-transform: uppercase;
+}
+section{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 170px;
+    margin-right: 170px;
+}
+.wrap-anch, .wrap-dimond, .wrap-glass, .wrap-monitor {
+    width: 240px;  
+    background: rgba(255,255,255,.5);    
+}
+.anch, .dimond, .glass, .monitor {   
+    height: 175px;    
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 0;
+}
+.anch {
+    background-image: url(/home8/image/anchor_bl.png);
+}
+.dimond {
+    background-image: url(/home8/image/dimond_bl.png);
+}
+.glass {
+    background-image: url(/home8/image/glass_bl.png);
+}
+.monitor {
+    background-image: url(/home8/image/monitor_bl.png);
+}
+
+.title{
+   color: #000;
+   font-size: 17px;
+   margin-top: 0;
+   margin-bottom: 46px;
+   text-align: center;
+   font-weight: bold;
+   opacity: 1;
+}
+.title-dimond{
+   color: #000;
+   font-size: 17px;
+   margin-top: 0;
+   margin-bottom: 27px;
+   text-align: center;
+   font-weight: bold;
+   opacity: 1;
+}
+.anatation{
+    color: #b89e9e;
+    font-weight: bold;
+    font-size: 14px;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: center;
+    padding-bottom: 96px;
+}
+    
+.wrap-anch:hover, .wrap-monitor:hover {
+    background: rgba(39,180,182,.5);
+    
+}
+.wrap-dimond:hover {
+    background: rgba(39,180,182,.5);
+}
+.wrap-glass:hover {
+    background: rgba(39,180,182,.5);
+}
+
+.wrap-anch:hover .anch { 
+    background-image: url(/home8/image/anchor_wh.png);
+}
+.wrap-dimond:hover .dimond { 
+    background-image: url(/home8/image/dimond_wh.png);
+}
+.wrap-glass:hover .glass { 
+    background-image: url(/home8/image/glass_wh.png);
+}
+.wrap-monitor:hover .monitor { 
+    background-image: url(/home8/image/monitor_wh.png);
+}
+
+.wrap-anch:hover p, .wrap-dimond:hover p, .wrap-glass:hover p, .wrap-monitor:hover p  { 
+    color: #fff;
+}
+
+

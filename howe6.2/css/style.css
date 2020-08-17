@@ -1,0 +1,106 @@
+.wrapper {
+    width: 1500px;
+    height: 670px;
+    background: #3b3f45;
+    margin: 25px;
+}
+.header, footer{
+    text-align: center;
+    background-color: #677271;
+}
+h1, p {
+    color: #f3ada8;
+    padding: 20px;
+    
+}
+.css{
+    text-transform: uppercase;
+}
+p{ 
+    margin-top: 0;
+    padding-top: 0;
+}
+h1 {
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+section, footer {
+    width: 500px;
+    margin: 0 auto;
+}
+ul  {
+    list-style: none;
+    text-align: left;
+    padding-left: 0px;
+    background:  #a5a8bb;
+    
+}
+.list:active {
+    background: #f3ada8;
+    text-decoration: line-through;
+}
+.line {
+     transition: .5s;
+      width: 100%;
+    
+  }
+ #pickles:checked ~ .line {
+    text-decoration: line-through;     
+}
+li:hover {
+    background: #7f8495;
+	border-top: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+}
+li {
+    background: #a5a8bb; 
+    cursor: pointer;
+    width: 100%; 
+    margin: 10px 0;
+    
+}
+    
+.main-text {
+    color: #fff;
+    font-size: 24px;
+    padding: 10px;
+}
+.small-text {
+    color: slategray;
+    font-size: 14px;
+    
+}
+li:nth-child(2n) {
+    background: #989bb0;
+}
+
+#apples:checked ~ .line {
+    text-decoration: line-through;
+    
+}  
+#orange:checked ~ .line {
+    text-decoration: line-through;
+}  
+#plate:checked ~ .line {
+    text-decoration: line-through;
+}
+#bentos:checked ~ .line {
+    text-decoration: line-through;
+}
+#bottle:checked ~ .line {
+    text-decoration: line-through;
+}
+
+h3 {
+    padding: 15px;
+    color: #f3ada8;
+}
+.footer:after {
+    content: " :)";
+    padding-left: 10px;
+    
+}
+
+.list:active + #apples:checked {
+    text-decoration: line-through;
+}  
