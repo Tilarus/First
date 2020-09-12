@@ -1,0 +1,137 @@
+.wrapp__grid-top {
+  padding: 83px 101px 0 101px;
+  background-image: linear-gradient(rgba(250, 249, 249, 0.6), rgba(247, 245, 245, 0.6)), url(/img/layer_16_127.png);
+  background-repeat: no-repeat;
+}
+
+.grid-container-top {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  gap: 56px 56px;
+  grid-template-areas: "one one two" "one one three" "four five six" "four five six";
+}
+.grid-container-top .one {
+  grid-area: one;
+  background-image: url(/img/rectangle_2_54.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 982px;
+  height: 776px;
+}
+.grid-container-top .two {
+  grid-area: two;
+  background: url(/img/rectangle_2_copy_55.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 463px;
+  height: 360px;
+}
+.grid-container-top .three {
+  grid-area: three;
+  background: url(/img/rectangle_2_copy_3_65.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 463px;
+  height: 360px;
+}
+.grid-container-top .four {
+  grid-area: four;
+  background: url(/img/rectangle_2_copy_6_68.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 462px;
+  height: 580px;
+}
+.grid-container-top .five {
+  grid-area: five;
+  background: url(/img/rectangle_2_copy_5_67.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 462px;
+  height: 580px;
+}
+.grid-container-top .six {
+  grid-area: six;
+  background: url(/img/rectangle_2_copy_4_66.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 462px;
+  height: 580px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 0px 0px;
+  grid-template-areas: "one_btm two_btm three_btm four_btm" "five_btm six_btm seven_btm eight_btm";
+}
+.grid-container .one_btm {
+  grid-area: one_btm;
+  background: url(/img/rectangle_3_74.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.grid-container .two_btm {
+  grid-area: two_btm;
+  background: url(/img/rectangle_3_copy_2_77.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 425px;
+  height: 425px;
+}
+.grid-container .three_btm {
+  grid-area: three_btm;
+  background: url(/img/rectangle_3_copy_3_81.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.grid-container .four_btm {
+  grid-area: four_btm;
+  background: url(/img/rectangle_3_copy_3_79.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.grid-container .five_btm {
+  grid-area: five_btm;
+  background: url(/img/rectangle_3_copy_75.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.grid-container .six_btm {
+  grid-area: six_btm;
+  background: url(/img/rectangle_3_copy_2_76.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.grid-container .seven_btm {
+  grid-area: seven_btm;
+  background: url(/img/rectangle_3_copy_3_80.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 425px;
+  height: 425px;
+}
+.grid-container .eight_btm {
+  grid-area: eight_btm;
+  background: url(/img/rectangle_3_copy_3_78.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+/*# sourceMappingURL=style.css.map */

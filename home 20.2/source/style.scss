@@ -1,0 +1,209 @@
+.wrapper {
+    width: 1100px;
+    padding: 91px 240px 111px 240px;
+    background: #e2e7ec;;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 20px 20px;
+    grid-template-areas:
+      "one one two"
+      "one one two"
+      "three four five"
+      "three four five";
+  }
+  
+  .one {
+       grid-area: one;
+       background-image: linear-gradient(to top, rgba(8, 6, 6, 0.664),  rgba(255, 255, 255, 0.596)), url(/img/layer_8_53.png);
+       background-size: cover;
+       background-position: center;
+       width: 740px;
+       height: 540px; 
+       div {
+           width: 433px;
+           position: relative;
+           left: 43px;
+           top: 404px;
+           p {
+            opacity: 0.5;
+            font-family: HansKendrick;
+            font-size: 13px;
+            line-height: 30px;
+            font-weight: 500;
+            text-transform: uppercase;
+            letter-spacing: 0.025em;
+            color: #ffffff;
+            margin:0;
+
+           }
+           p:last-child {
+            font-family: HansKendrick;
+            font-size: 30px;
+            line-height: 36px;
+            font-weight: 900;
+            text-transform: uppercase;
+            letter-spacing: 0.025em;
+            color: #ffffff;
+           }
+       }
+    }
+  
+  .two { 
+      grid-area: two;
+      background: rgb(255, 255, 255);
+      width: 360px;
+      height: 540px;
+      .wrapper-two {
+          width: 307px;
+         padding: 0 26px;
+          p {
+            font-family: HansKendrick;
+            font-size: 13px;
+            line-height: 30px;
+            font-weight: 500;
+            text-transform: uppercase;
+            letter-spacing: 0.025em;
+            color: #818181;
+            margin:28px 0 0 0;
+            
+
+          }
+          p:nth-child(2) {
+            font-family: HansKendrick;
+            font-size: 20px;
+            line-height: 30px;
+            font-weight: 900;
+            text-transform: uppercase;
+            letter-spacing: 0.025em;
+            color: #1d1d1d;
+            margin: 0 0 70px 0;
+          }         
+      }
+     }
+  
+  .three { 
+      grid-area: three; 
+      width: 360px;
+      height: 540px;
+      background: rgb(255, 255, 255);
+      .wrapper-two {
+        width: 307px;
+       padding: 0 26px;
+        p {
+          font-family: HansKendrick;
+          font-size: 13px;
+          line-height: 30px;
+          font-weight: 500;
+          text-transform: uppercase;
+          letter-spacing: 0.025em;
+          color: #818181;
+          margin:28px 0 0 0;
+          
+
+        }
+        p:nth-child(2) {
+          font-family: HansKendrick;
+          font-size: 20px;
+          line-height: 30px;
+          font-weight: 900;
+          text-transform: uppercase;
+          letter-spacing: 0.025em;
+          color: #1d1d1d;
+          margin: 0 0 70px 0;
+        }         
+    }
+    }
+  
+  .four {
+       grid-area: four; 
+       width: 360px;
+      height: 540px;
+      background: rgb(255, 255, 255);
+      .wrapper-two {
+        width: 307px;
+       padding: 0 26px;
+        p {
+          font-family: HansKendrick;
+          font-size: 13px;
+          line-height: 30px;
+          font-weight: 500;
+          text-transform: uppercase;
+          letter-spacing: 0.025em;
+          color: #818181;
+          margin:28px 0 0 0;
+          
+
+        }
+        p:nth-child(2) {
+          font-family: HansKendrick;
+          font-size: 20px;
+          line-height: 30px;
+          font-weight: 900;
+          text-transform: uppercase;
+          letter-spacing: 0.025em;
+          color: #1d1d1d;
+          margin: 0 0 70px 0;
+        }         
+    }
+    }
+  
+  .five { 
+      grid-area: five;
+      width: 360px;
+      height: 540px; 
+      background: rgb(255, 255, 255);
+      .wrapper-two {
+        width: 307px;
+       padding: 0 26px;
+        p {
+          font-family: HansKendrick;
+          font-size: 13px;
+          line-height: 30px;
+          font-weight: 500;
+          text-transform: uppercase;
+          letter-spacing: 0.025em;
+          color: #818181;
+          margin:28px 0 0 0;
+          
+
+        }
+        p:nth-child(2) {
+          font-family: HansKendrick;
+          font-size: 20px;
+          line-height: 30px;
+          font-weight: 900;
+          text-transform: uppercase;
+          letter-spacing: 0.025em;
+          color: #1d1d1d;
+          margin: 0 0 70px 0;
+        }         
+    }
+    
+    }
+    footer {
+        margin-top: 79px;
+        .wrapper-footer{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .footer__img {
+            background: url(/img/vector_smart_object_80.png);
+            width: 30px;
+            height: 28px;
+            margin-right: 13px;
+        }
+        .footer-text {
+            font-family: HansKendrick;
+            font-size: 13px;
+            line-height: 30px;
+            font-weight: 900;
+            text-transform: uppercase;
+            letter-spacing: 0.025em;
+            color: #99a5b0;
+        }
+    }
+    }
+  
