@@ -1,0 +1,280 @@
+.nav span {
+  font-family: FontAwesome;
+}
+.nav a {
+  text-decoration: none;
+  color: #777;
+  list-style: none;
+}
+.nav li:hover a {
+  color: #fff;
+}
+.nav .top__items {
+  width: 2050px;
+  height: 45px;
+  background-color: #333333;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+.nav .top__items li:first-child {
+  margin-left: 440px;
+}
+.nav .top__items li:nth-child(2) {
+  margin-left: 624px;
+}
+.nav .top__items li:nth-child(3) {
+  margin-right: 82px;
+}
+.nav .top__items li:last-child {
+  margin-right: 440px;
+}
+.nav .top__items li {
+  font-family: Montserrat;
+  font-size: 13px;
+  line-height: 20px;
+  font-weight: 700;
+  list-style-type: none;
+  color: #777;
+  padding: 0 20px;
+}
+.nav .top__items li:hover {
+  background: #00c8c8;
+  height: 100%;
+  color: #fff;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  font-weight: 700;
+}
+.nav .top__items li:hover span {
+  margin-left: 4px;
+}
+.nav .nav__btm {
+  background-image: url(/img/bg.png);
+  width: 2050px;
+  height: 920px;
+}
+.nav .nav__btm .nav__wrapper {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+  padding-top: 37px;
+}
+.nav .nav__btm .nav__wrapper .btm__logo, .nav .nav__btm .nav__wrapper .btm__logo-text {
+  font-family: Montserrat;
+  font-size: 24px;
+  line-height: 1.2;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #222222;
+}
+.nav .nav__btm .nav__wrapper .btm__logo .btm__logo-text, .nav .nav__btm .nav__wrapper .btm__logo-text .btm__logo-text {
+  font-weight: 700;
+  margin: 0 0 0 134px;
+}
+.nav .nav__btm .nav__wrapper ul {
+  width: 595px;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 644px;
+}
+.nav .nav__btm .nav__wrapper ul li {
+  list-style: none;
+  font-family: Montserrat;
+  font-size: 13px;
+  line-height: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #222;
+}
+.nav .nav__btm .nav__wrapper ul li .dropdown__select {
+  border: none;
+  cursor: pointer;
+}
+.nav .nav__btm .nav__wrapper ul li .dropdown__select:hover {
+  background-color: none;
+  color: #00c8c8;
+}
+.nav .nav__btm .nav__wrapper ul li .items__dropdown:hover .dropdown__select {
+  color: #00c8c8;
+}
+.nav .nav__btm .nav__wrapper ul li .items__dropdown {
+  position: relative;
+  display: inline-block;
+  text-align: start;
+}
+.nav .nav__btm .nav__wrapper ul li .dropdown-wrapper {
+  display: none;
+  min-width: 200px;
+  background-color: #f8f8f8;
+  box-shadow: 0px 17px 24px 0px rgba(0, 0, 0, 0.14);
+}
+.nav .nav__btm .nav__wrapper ul li .dropdown-wrapper a {
+  color: #222;
+  text-decoration: none;
+  display: block;
+  font-family: Montserrat;
+  font-size: 14px;
+  line-height: 30px;
+  font-weight: 300;
+  color: #727272;
+}
+.nav .nav__btm .nav__wrapper ul li .items__dropdown:hover .dropdown-wrapper {
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+}
+.nav .nav__btm .nav__wrapper ul li .menu__banner {
+  width: 407px;
+  height: 200px;
+  background: #000;
+  margin: 20px auto 30px;
+  text-align: center;
+}
+.nav .nav__btm .nav__wrapper ul li .menu__banner .menu__text, .nav .nav__btm .nav__wrapper ul li .menu__banner .menu-text {
+  font-family: Montserrat;
+  font-size: 36px;
+  line-height: 48px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #ffffff;
+}
+.nav .nav__btm .nav__wrapper ul li .menu__banner .menu-text {
+  font-weight: 700;
+}
+.nav .nav__btm .nav__wrapper ul li .wrapper__menu {
+  display: flex;
+  justify-content: space-between;
+}
+.nav .nav__btm .nav__wrapper ul li .dropdown__menu {
+  display: flex;
+  flex-direction: column;
+  width: 467px;
+  height: 527px;
+}
+.nav .nav__btm .nav__wrapper ul li .menu__list {
+  margin: 30px 145px 0 29px;
+}
+.nav .nav__btm .nav__wrapper ul li .menu__list .list__item-title {
+  font-family: Montserrat;
+  font-size: 12px;
+  line-height: 20px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #575153;
+}
+.nav .nav__btm .nav__wrapper .nav__search {
+  position: relative;
+  top: -11px;
+  margin-right: 50px;
+}
+.nav .nav__btm .nav__wrapper .nav__search .search {
+  width: 190px;
+  border: 1px solid #e7e7e7;
+  min-height: 30px;
+  display: flex;
+  position: relative;
+}
+.nav .nav__btm .nav__wrapper .nav__search input[type=search] {
+  border: none;
+  outline: none;
+  -webkit-appearance: none;
+  width: 190px;
+  vertical-align: middle;
+}
+.nav .nav__btm .nav__wrapper .nav__search button {
+  padding: 0;
+  border: none;
+  font: inherit;
+  color: inherit;
+  background-color: transparent;
+  cursor: pointer;
+  position: absolute;
+  right: 5px;
+  top: 6px;
+  color: #989898;
+  outline: none;
+}
+
+.menu__goods {
+  margin: 117px 0 61px 110px;
+  background: #fff;
+}
+.menu__goods a {
+  text-decoration: none;
+  color: #777;
+  list-style: none;
+  font-family: Montserrat;
+  font-size: 13px;
+  line-height: 20px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #727272;
+  margin-right: 40px;
+}
+.menu__goods a:hover {
+  color: #00c8c8;
+}
+
+.goods {
+  width: 2050px;
+  padding: 0 150px;
+}
+.goods .grid-container {
+  display: grid;
+  grid-template-columns: repeat(4, 422px);
+  grid-template-rows: repeat(5, 255px);
+  gap: 30px;
+  grid-template-areas: "one two three three" "one two three three" "four four three three" "four four five six" "four four five six";
+}
+.goods .one {
+  position: relative;
+  background: url(/img/pic1.png);
+  background-size: cover;
+  grid-area: one;
+}
+.goods .descr {
+  display: none;
+  margin-top: 538px;
+  background: #fff;
+  height: 200px;
+}
+.goods .one:hover .descr {
+  display: block;
+  position: absolute;
+  z-index: 9999;
+  width: 422px;
+}
+.goods .two {
+  background: url(/img/pic2.png);
+  background-size: cover;
+  grid-area: two;
+}
+.goods .three {
+  background: url(/img/pic3.png);
+  background-size: cover;
+  grid-area: three;
+}
+.goods .four {
+  background: url(/img/pic4.png);
+  background-size: cover;
+  grid-area: four;
+}
+.goods .five {
+  background: url(/img/pic5.png);
+  background-size: cover;
+  grid-area: five;
+}
+.goods .six {
+  background: url(/img/pic6.png);
+  background-size: cover;
+  grid-area: six;
+}
+
+/*# sourceMappingURL=style.css.map */
